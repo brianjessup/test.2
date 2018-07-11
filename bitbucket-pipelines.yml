@@ -1,0 +1,9 @@
+# Only use spaces to indent your .yml configuration.
+# -----
+image: python:3.5.1
+
+pipelines:
+  default:
+    - step:
+        script: 
+          - git push git@github.com:brianjessup/forestry-demo.git master
