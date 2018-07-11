@@ -6,4 +6,4 @@ pipelines:
   default:
     - step:
         script: 
-          - git push git@github.com:brianjessup/forestry-demo.git master
+          - git push git@github.com:brianjessup/test.2.git master
